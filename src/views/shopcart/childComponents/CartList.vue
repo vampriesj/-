@@ -23,6 +23,6 @@
 
 <style scoped>
   .cart-list{
-
+    width: 100%;
   }
 </style>

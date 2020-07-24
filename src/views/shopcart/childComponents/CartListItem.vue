@@ -43,6 +43,7 @@
 
 <style scoped>
   .cart-item{
+    width: 100%;
     display: flex;
     padding: 10px 5px;
     height: 110px;
@@ -55,21 +56,25 @@
     align-items: center;
   }
   .cart-item-img{
+    /*width: 35%;*/
     margin-right: 5px;
+    margin-left: 5px;
     border-radius: 7px;
     overflow: hidden;
   }
   .cart-item-img img{
-    width: 70px;
+    width: 100%;
     height: 100%;
   }
   .cart-item-right{
+    width: calc(100% - 100px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
+
   .cart-item-right .text{
-    width: 270px;
+    width: 100%;
     font-size: 13px;
     font-weight: bold;
     height: 30px;

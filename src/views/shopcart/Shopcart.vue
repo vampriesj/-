@@ -46,6 +46,7 @@
     font-weight: 700;
   }
   .cart-scroll{
+    width: 100%;
     position: fixed;
     top: 44px;
     bottom: 79px;
